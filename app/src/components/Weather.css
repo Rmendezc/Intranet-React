@@ -1,0 +1,39 @@
+.weather-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .searchBar {
+    margin-right: auto;
+    padding-left: 20px;
+  }
+  
+  .city-name {
+    font-size: 28px;
+    font-weight: bold;
+    color: gold;
+  }
+  .date-time {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .weather-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+  }
+
+  .weather-info p {
+    color: white;
+    margin: 10px;
+  }
+
+  .loading-message{
+    padding: 10px;
+    color: white;
+    font-weight: bold
+  }
