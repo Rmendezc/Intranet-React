@@ -3,4 +3,4 @@
 # 2 npm install 
 # 3 npm start 
 New update soon, i will be finishing this may 2024
-I got a few more ideas i need to do before doing my coding
+i got my ideas written down
