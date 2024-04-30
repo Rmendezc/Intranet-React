@@ -1,5 +1,5 @@
 import React, {Fragment, useEffect, useState} from 'react';
-import './App.css';
+import './index.css';
 import { initializeApp } from 'firebase/app';
 import AuthGoogle from './authGoogle';
 import firebase from 'firebase/compat/app';
@@ -34,7 +34,7 @@ function App() {
   });
 
   return (
-    <div className="App">
+    <div className="App">  
       <Fragment>
         <Navbar/>
       </Fragment>
