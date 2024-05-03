@@ -9,8 +9,14 @@ import { Authenticated } from './Authenticated';
 import Navbar from './components/Navbar';
 import Sidebar from './components/Sidebar';
 import Home from '@mui/icons-material/Home';
+import { ColorModeContext, useMode } from './theme';
+import { CssBaseline, ThemeProvider } from "@mui/material";
 
 function App() {
+  const [theme, colorMode] = useMode();
+
+
+
   const firebaseConfig = {
     apiKey: "AIzaSyCNDdGOP8ZeSHUkLSkkA4jb1E7jxbUgqOk",
     authDomain: "canyon-intranet.firebaseapp.com",
@@ -34,6 +40,9 @@ function App() {
   });
 
   return (
+    
+    
+
     <div className="App">  
       <Fragment>
         <Navbar/>
