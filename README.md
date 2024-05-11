@@ -4,4 +4,4 @@
 # 3 npm start 
 I will be deploying through AWS
 
-New update soon, i will finish this week
+New update soon, I need a few more things before i deploy
